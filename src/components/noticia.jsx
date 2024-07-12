@@ -26,6 +26,7 @@ return(
         <div>
             <h1> {noticia.titulo}</h1>
             <p> {noticia.introducao}</p>
+            
         </div>
         )
     )
