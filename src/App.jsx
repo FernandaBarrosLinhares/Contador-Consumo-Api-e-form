@@ -1,6 +1,7 @@
 
 import './App.css'
 import {Contador} from "./components/contador"
+import {Noticia} from "./components/noticia"
 
 function App() {
  
@@ -9,6 +10,8 @@ function App() {
   return (
     <>
      <Contador></Contador>
+     <Noticia></Noticia>
+   
     </>
   )
 }
