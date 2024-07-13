@@ -7,7 +7,7 @@ export function Contador(){
     const[contador, setContador]= useState(0)
 
     function handleAdd(){
-        setContador(estaAnterior =>  estaAnterior + 1)
+        setContador(estadoAnterior =>  estadoAnterior + 1)
     }
 
 

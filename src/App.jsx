@@ -2,6 +2,7 @@
 import './App.css'
 import {Contador} from "./components/contador"
 import {Noticia} from "./components/noticia"
+import {Estado}from "./components/estado"
 
 function App() {
  
@@ -11,6 +12,7 @@ function App() {
     <>
      <Contador></Contador>
      <Noticia></Noticia>
+     <Estado></Estado>
    
     </>
   )
