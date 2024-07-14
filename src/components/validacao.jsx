@@ -29,13 +29,13 @@ export function Validacao() {
     return (
         <div className="container mt-4">
             <form  className="mb-4">
-                {/* INPUT DE NOME */}
+                
                 <input 
                     placeholder="Informe seu nome" 
                     type="text" 
                     className="form-control" 
                     onChange={(event) => setFormdata(prevState => ({ ...prevState, nome: event.target.value }))} />
-                {/* INPUT DE E-MAIL */}
+          
                 <input 
                     placeholder="Informe seu e-mail" 
                     type="text" 
@@ -43,7 +43,6 @@ export function Validacao() {
                     onChange={(event) => setFormdata(prevState => ({ ...prevState, email: event.target.value }))}  
                 />
 
-                {/* INPUT DE IDADE */}
                 <input 
                     placeholder="Informe sua idade" 
                     type="text" 
